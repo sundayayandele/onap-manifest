@@ -49,28 +49,28 @@
     <project path="ci-management" name="ci-management" groups="build"/>
     <project path="clamp" name="clamp" groups="build"/>
     <project path="cli" name="cli" groups="build"/>
-    <project path="dcae" name="dcae" groups="locked"/>
-    <project path="dcae/apod" name="dcae/apod" groups="locked"/>
-    <project path="dcae/apod/analytics" name="dcae/apod/analytics" groups="locked"/>
-    <project path="dcae/apod/buildtools" name="dcae/apod/buildtools" groups="locked"/>
-    <project path="dcae/apod/cdap" name="dcae/apod/cdap" groups="locked"/>
-    <project path="dcae/collectors" name="dcae/collectors" groups="locked"/>
-    <project path="dcae/collectors/ves" name="dcae/collectors/ves" groups="locked"/>
-    <project path="dcae/controller" name="dcae/controller" groups="locked"/>
-    <project path="dcae/controller/analytics" name="dcae/controller/analytics" groups="locked"/>
-    <project path="dcae/dcae-inventory" name="dcae/dcae-inventory" groups="locked"/>
-    <project path="dcae/demo" name="dcae/demo" groups="locked"/>
-    <project path="dcae/demo/startup" name="dcae/demo/startup" groups="locked"/>
-    <project path="dcae/demo/startup/aaf" name="dcae/demo/startup/aaf" groups="locked"/>
-    <project path="dcae/demo/startup/controller" name="dcae/demo/startup/controller" groups="locked"/>
-    <project path="dcae/demo/startup/message-router" name="dcae/demo/startup/message-router" groups="locked"/>
-    <project path="dcae/dmaapbc" name="dcae/dmaapbc" groups="locked"/>
-    <project path="dcae/operation" name="dcae/operation" groups="locked"/>
-    <project path="dcae/operation/utils" name="dcae/operation/utils" groups="locked"/>
-    <project path="dcae/orch-dispatcher" name="dcae/orch-dispatcher" groups="locked"/>
-    <project path="dcae/pgaas" name="dcae/pgaas" groups="locked"/>
-    <project path="dcae/utils" name="dcae/utils" groups="locked"/>
-    <project path="dcae/utils/buildtools" name="dcae/utils/buildtools" groups="locked"/>
+    <project path="dcae" name="dcae" groups="locked,notdefault"/>
+    <project path="dcae/apod" name="dcae/apod" groups="locked,notdefault"/>
+    <project path="dcae/apod/analytics" name="dcae/apod/analytics" groups="locked,notdefault"/>
+    <project path="dcae/apod/buildtools" name="dcae/apod/buildtools" groups="locked,notdefault"/>
+    <project path="dcae/apod/cdap" name="dcae/apod/cdap" groups="locked,notdefault"/>
+    <project path="dcae/collectors" name="dcae/collectors" groups="locked,notdefault"/>
+    <project path="dcae/collectors/ves" name="dcae/collectors/ves" groups="locked,notdefault"/>
+    <project path="dcae/controller" name="dcae/controller" groups="locked,notdefault"/>
+    <project path="dcae/controller/analytics" name="dcae/controller/analytics" groups="locked,notdefault"/>
+    <project path="dcae/dcae-inventory" name="dcae/dcae-inventory" groups="locked,notdefault"/>
+    <project path="dcae/demo" name="dcae/demo" groups="locked,notdefault"/>
+    <project path="dcae/demo/startup" name="dcae/demo/startup" groups="locked,notdefault"/>
+    <project path="dcae/demo/startup/aaf" name="dcae/demo/startup/aaf" groups="locked,notdefault"/>
+    <project path="dcae/demo/startup/controller" name="dcae/demo/startup/controller" groups="locked,notdefault"/>
+    <project path="dcae/demo/startup/message-router" name="dcae/demo/startup/message-router" groups="locked,notdefault"/>
+    <project path="dcae/dmaapbc" name="dcae/dmaapbc" groups="locked,notdefault"/>
+    <project path="dcae/operation" name="dcae/operation" groups="locked,notdefault"/>
+    <project path="dcae/operation/utils" name="dcae/operation/utils" groups="locked,notdefault"/>
+    <project path="dcae/orch-dispatcher" name="dcae/orch-dispatcher" groups="locked,notdefault"/>
+    <project path="dcae/pgaas" name="dcae/pgaas" groups="locked,notdefault"/>
+    <project path="dcae/utils" name="dcae/utils" groups="locked,notdefault"/>
+    <project path="dcae/utils/buildtools" name="dcae/utils/buildtools" groups="locked,notdefault"/>
     <project path="dcaegen2" name="dcaegen2" groups="build"/>
     <project path="dcaegen2/analytics" name="dcaegen2/analytics" groups="build"/>
     <project path="dcaegen2/analytics/tca" name="dcaegen2/analytics/tca" groups="build"/>
@@ -100,7 +100,7 @@
     <project path="dmaap/messagerouter/msgrtr" name="dmaap/messagerouter/msgrtr" groups="build"/>
     <project path="doc" name="doc" groups="build"/>
     <project path="doc/tools" name="doc/tools" groups="build"/>
-    <project path="ecompsdkos" name="ecompsdkos" groups="locked"/>
+    <project path="ecompsdkos" name="ecompsdkos" groups="locked,notdefault"/>
     <project path="externalapi/nbi" name="externalapi/nbi" groups="build"/>
     <project path="holmes/common" name="holmes/common" groups="build"/>
     <project path="holmes/dsa" name="holmes/dsa" groups="build"/>
@@ -114,25 +114,25 @@
     <project path="msb/discovery" name="msb/discovery" groups="build"/>
     <project path="msb/java-sdk" name="msb/java-sdk" groups="build"/>
     <project path="msb/swagger-sdk" name="msb/swagger-sdk" groups="build"/>
-    <project path="mso" name="mso" groups="locked"/>
-    <project path="mso/chef-repo" name="mso/chef-repo" groups="locked"/>
-    <project path="mso/docker-config" name="mso/docker-config" groups="locked"/>
-    <project path="mso/libs" name="mso/libs" groups="locked"/>
-    <project path="mso/mso-config" name="mso/mso-config" groups="locked"/>
+    <project path="mso" name="mso" groups="locked,notdefault"/>
+    <project path="mso/chef-repo" name="mso/chef-repo" groups="locked,notdefault"/>
+    <project path="mso/docker-config" name="mso/docker-config" groups="locked,notdefault"/>
+    <project path="mso/libs" name="mso/libs" groups="locked,notdefault"/>
+    <project path="mso/mso-config" name="mso/mso-config" groups="locked,notdefault"/>
     <project path="multicloud/azure" name="multicloud/azure" groups="build"/>
     <project path="multicloud/framework" name="multicloud/framework" groups="build"/>
     <project path="multicloud/openstack" name="multicloud/openstack" groups="build"/>
     <project path="multicloud/openstack/vmware" name="multicloud/openstack/vmware" groups="build"/>
     <project path="multicloud/openstack/windriver" name="multicloud/openstack/windriver" groups="build"/>
-    <project path="ncomp" name="ncomp" groups="locked"/>
-    <project path="ncomp/cdap" name="ncomp/cdap" groups="locked"/>
-    <project path="ncomp/core" name="ncomp/core" groups="locked"/>
-    <project path="ncomp/docker" name="ncomp/docker" groups="locked"/>
-    <project path="ncomp/maven" name="ncomp/maven" groups="locked"/>
-    <project path="ncomp/openstack" name="ncomp/openstack" groups="locked"/>
-    <project path="ncomp/sirius" name="ncomp/sirius" groups="locked"/>
-    <project path="ncomp/sirius/manager" name="ncomp/sirius/manager" groups="locked"/>
-    <project path="ncomp/utils" name="ncomp/utils" groups="locked"/>
+    <project path="ncomp" name="ncomp" groups="locked,notdefault"/>
+    <project path="ncomp/cdap" name="ncomp/cdap" groups="locked,notdefault"/>
+    <project path="ncomp/core" name="ncomp/core" groups="locked,notdefault"/>
+    <project path="ncomp/docker" name="ncomp/docker" groups="locked,notdefault"/>
+    <project path="ncomp/maven" name="ncomp/maven" groups="locked,notdefault"/>
+    <project path="ncomp/openstack" name="ncomp/openstack" groups="locked,notdefault"/>
+    <project path="ncomp/sirius" name="ncomp/sirius" groups="locked,notdefault"/>
+    <project path="ncomp/sirius/manager" name="ncomp/sirius/manager" groups="locked,notdefault"/>
+    <project path="ncomp/utils" name="ncomp/utils" groups="locked,notdefault"/>
     <project path="oom" name="oom" groups="build"/>
     <project path="oom/registrator" name="oom/registrator" groups="build"/>
     <project path="oparent" name="oparent" groups="build"/>
