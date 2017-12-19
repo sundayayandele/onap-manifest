@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="origin"
+        fetch="https://gerrit.onap.org/r"
+        review="https://gerrit.onap.org/"
+        revision="master" />
+    <default revision="master"
+        remote="origin"
+        sync-j="4" />
+    <project path="aai/aai-data" name="aai/aai-data" groups="build"/>
+    <project path="aai/aai-config" name="aai/aai-config" groups="build"/>
+    <project path="aai/data-router" name="aai/data-router" groups="build"/>
+    <project path="aai/logging-service" name="aai/logging-service" groups="build"/>
+    <project path="aai/model-loader" name="aai/model-loader" groups="build"/>
+    <project path="aai/resources" name="aai/resources" groups="build"/>
+    <project path="aai/rest-client" name="aai/rest-client" groups="build"/>
+    <project path="aai/router-core" name="aai/router-core" groups="build"/>
+    <project path="aai/search-data-service" name="aai/search-data-service" groups="build"/>
+    <project path="aai/sparky-be" name="aai/sparky-be" groups="build"/>
+    <project path="aai/sparky-fe" name="aai/sparky-fe" groups="build"/>
+    <project path="aai/test-config" name="aai/test-config" groups="build"/>
+    <project path="aai/traversal" name="aai/traversal" groups="build"/>
+    <project path="appc/deployment" name="appc/deployment" groups="build"/>
+    <project path="ci-management" name="ci-management" groups="build"/>
+    <project path="dcae" name="dcae" groups="build"/>
+    <project path="dcae/apod" name="dcae/apod" groups="build"/>
+    <project path="dcae/apod/analytics" name="dcae/apod/analytics" groups="build"/>
+    <project path="dcae/apod/buildtools" name="dcae/apod/buildtools" groups="build"/>
+    <project path="dcae/apod/cdap" name="dcae/apod/cdap" groups="build"/>
+    <project path="dcae/collectors" name="dcae/collectors" groups="build"/>
+    <project path="dcae/collectors/ves" name="dcae/collectors/ves" groups="build"/>
+    <project path="dcae/controller" name="dcae/controller" groups="build"/>
+    <project path="dcae/controller/analytics" name="dcae/controller/analytics" groups="build"/>
+    <project path="dcae/dcae-inventory" name="dcae/dcae-inventory" groups="build"/>
+    <project path="dcae/demo" name="dcae/demo" groups="build"/>
+    <project path="dcae/demo/startup" name="dcae/demo/startup" groups="build"/>
+    <project path="dcae/demo/startup/aaf" name="dcae/demo/startup/aaf" groups="build"/>
+    <project path="dcae/demo/startup/controller" name="dcae/demo/startup/controller" groups="build"/>
+    <project path="dcae/demo/startup/message-router" name="dcae/demo/startup/message-router" groups="build"/>
+    <project path="dcae/dmaapbc" name="dcae/dmaapbc" groups="build"/>
+    <project path="dcae/operation" name="dcae/operation" groups="build"/>
+    <project path="dcae/operation/utils" name="dcae/operation/utils" groups="build"/>
+    <project path="dcae/orch-dispatcher" name="dcae/orch-dispatcher" groups="build"/>
+    <project path="dcae/pgaas" name="dcae/pgaas" groups="build"/>
+    <project path="dcae/utils" name="dcae/utils" groups="build"/>
+    <project path="dcae/utils/buildtools" name="dcae/utils/buildtools" groups="build"/>
+    <project path="demo" name="demo" groups="build"/>
+    <project path="ecompsdkos" name="ecompsdkos" groups="build"/>
+    <project path="mso" name="mso" groups="build"/>
+    <project path="mso/chef-repo" name="mso/chef-repo" groups="build"/>
+    <project path="mso/docker-config" name="mso/docker-config" groups="build"/>
+    <project path="mso/libs" name="mso/libs" groups="build"/>
+    <project path="mso/mso-config" name="mso/mso-config" groups="build"/>
+    <project path="ncomp" name="ncomp" groups="build"/>
+    <project path="ncomp/cdap" name="ncomp/cdap" groups="build"/>
+    <project path="ncomp/core" name="ncomp/core" groups="build"/>
+    <project path="ncomp/docker" name="ncomp/docker" groups="build"/>
+    <project path="ncomp/maven" name="ncomp/maven" groups="build"/>
+    <project path="ncomp/openstack" name="ncomp/openstack" groups="build"/>
+    <project path="ncomp/sirius" name="ncomp/sirius" groups="build"/>
+    <project path="ncomp/sirius/manager" name="ncomp/sirius/manager" groups="build"/>
+    <project path="ncomp/utils" name="ncomp/utils" groups="build"/>
+    <project path="oom" name="oom" groups="build"/>
+    <project path="policy/common" name="policy/common" groups="build"/>
+    <project path="policy/docker" name="policy/docker" groups="build"/>
+    <project path="policy/drools-applications" name="policy/drools-applications" groups="build"/>
+    <project path="policy/drools-pdp" name="policy/drools-pdp" groups="build"/>
+    <project path="policy/engine" name="policy/engine" groups="build"/>
+    <project path="portal" name="portal" groups="build"/>
+    <project path="sdc" name="sdc" groups="build"/>
+    <project path="sdc/sdc-distribution-client" name="sdc/sdc-distribution-client" groups="build"/>
+    <project path="sdc/sdc-titan-cassandra" name="sdc/sdc-titan-cassandra" groups="build"/>
+    <project path="sdc/sdc_common" name="sdc/sdc_common" groups="build"/>
+    <project path="sdnc/adaptors" name="sdnc/adaptors" groups="build"/>
+    <project path="sdnc/core" name="sdnc/core" groups="build"/>
+    <project path="sdnc/northbound" name="sdnc/northbound" groups="build"/>
+    <project path="sdnc/oam" name="sdnc/oam" groups="build"/>
+    <project path="sdnc/plugins" name="sdnc/plugins" groups="build"/>
+    <project path="testsuite" name="testsuite" groups="build"/>
+    <project path="testsuite/heatbridge" name="testsuite/heatbridge" groups="build"/>
+    <project path="testsuite/properties" name="testsuite/properties" groups="build"/>
+    <project path="testsuite/python-testing-utils" name="testsuite/python-testing-utils" groups="build"/>
+    <project path="ui" name="ui" groups="build"/>
+    <project path="ui/dmaapbc" name="ui/dmaapbc" groups="build"/>
+    <project path="vid" name="vid" groups="build"/>
+    <project path="vid/asdcclient" name="vid/asdcclient" groups="build"/>
+</manifest>
